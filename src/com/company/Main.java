@@ -9,7 +9,7 @@ public class Main {
         System.out.println(n1.getName()+"    "+n1.getPages());
         System.out.println(n2.getName()+"    "+n2.getPages());
         System.out.println(n3.getName()+"    "+n3.getPages());
-
+        System.out.println(n1.toString());
 
     }
 }

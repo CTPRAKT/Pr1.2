@@ -23,4 +23,12 @@ public class book {
         name=n;
         pages=p;
     }
+
+    @Override
+    public String toString() {
+        return "book{" +
+                "pages=" + pages +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
